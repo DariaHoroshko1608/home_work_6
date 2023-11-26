@@ -1,0 +1,104 @@
+@import url(reset.css);
+
+.container{
+  width: 1200px;
+  margin: 40px auto;
+}
+
+/* HEADER */
+
+.header{
+  font-size: 0;
+}
+.header > div{
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  background: 	#FFFACD;
+  outline: 1px solid red;
+}
+
+/* MAIN */
+
+.main{
+  font-size: 0;
+}
+
+.main > div{
+  display: inline-block;
+  vertical-align: top;
+  outline: 1px solid red;
+  background: 		#DA70D6;
+}
+
+.main__div{
+  width: 800px;
+  outline: 1px solid red;
+}
+
+.main__div > div{
+  display: block;
+  height: 200px;
+  outline: 1px solid red;
+}
+
+.main__section__div{
+  width: 400px;
+  outline: 1px solid red;
+}
+
+.main__section__div > div{
+  display: block;
+  height: 133px;
+  outline: 1px solid red;
+}
+
+/* FOOTER */
+.footer{
+  font-size: 0;
+}
+
+.footer > .footer__div, .footer__section__div{
+  display: inline-block;
+}
+
+.footer__div{
+  width: 400px;
+  height: 400px;
+  outline: 1px solid red;
+  background: #FFCCFF;
+}
+
+.footer__section__div > div{
+  height: 200px;
+  outline: 1px solid red;
+  background: #FFCCFF;
+}
+
+
+.footer-block_one, .footer-block_two{
+  display: inline-block;
+}
+
+.footer-block_one{
+  height: 200px;
+  width: 400px; 
+  outline: 1px solid red;
+  background: #FFCCFF;
+}
+
+.footer-block_two{
+  height: 200px;
+  width: 400px;
+  outline: 1px solid red;
+  background: #FFCCFF;
+}
+
+.footer-block_two > div{
+  display: block;
+  outline: 1px solid red;
+  background: #FFCCFF;
+  height: 100px;
+}
+
+
